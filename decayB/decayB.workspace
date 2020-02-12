@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="decayB" Database="decayB-flor.tags" Version="10.0.0">
+  <Project Name="decayB" Path="decayB.project" Active="Yes"/>
+  <Project Name="fmath" Path="../lib/fmath/fmath.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="decayB" ConfigName="Debug"/>
+      <Project Name="fmath" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="decayB" ConfigName="Release"/>
+      <Project Name="fmath" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
