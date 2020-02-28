@@ -39,13 +39,7 @@ void setInitialConditions(Matrix& s, const std::string& filename)
 
 		rp[i] = r_i + delta_r * i;  
 
-		if (r_f - rp[i] <= 100) {
-			den = density1(r_f - rp[i]);
-		}
-		else {
-		//      myfile << r_f - rp[i] << " " << den <<std::endl;
-			den = density3(r_f - rp[i]);
-		}
+		
 
 
 		if (rp[i] >= r_o) {

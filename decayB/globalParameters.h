@@ -14,3 +14,5 @@
 	extern const double delta_t;        //CUIDADO! aqui no tengo un DO para el tiempo porque solo estoy probando como escribir AA y BB
     
 	extern const double accr_rate;             //[solarMasses yr^-1]
+	
+	extern const double Q;

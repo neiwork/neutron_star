@@ -17,3 +17,4 @@
     
 	const double accr_rate = 3.e-10;             //[solarMasses yr^-1]
 
+	const double Q = 0.01;

@@ -48,20 +48,7 @@ int main(int argc, char **argv)
 		
 		rp[i] = r_i + delta_r * i; 
 		
-		double den;
-
-		if (r_f - rp[i] <= 100) {
-
-			den = density1(r_f - rp[i]);
-		}
-
-		else {
-		//      myfile << r_f - rp[i] << " " << den <<std::endl;
-
-			den = density3(r_f - rp[i]);
-
-		}
-   
+		double den = density(rp[i]);
 		
 		myfile2 << den << " " << s[i][n_time-1] << std::endl;
     }

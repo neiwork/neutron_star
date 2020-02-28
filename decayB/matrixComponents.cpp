@@ -31,15 +31,7 @@ void setMatrix(Matrix& bb, Vector& cd, Vector& ad, Vector& bd)
 
  //     myfile << " pos vs densidad" << std::endl;  
  
-		double den = 0.0;
-        
-		if (r_f - rp[i] <= 100) {
-			den = density1(r_f - rp[i]);
-		}
-
-		else {
-			den = density3(r_f - rp[i]);
-		}
+		double den = density(rp[i]);
 		
 		myfile3 << rp[i] << "\t" << den <<std::endl;
     
