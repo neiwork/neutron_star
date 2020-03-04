@@ -31,7 +31,7 @@ void setInitialConditions(Matrix& s, const std::string& filename)
      Vector rp(n_rows,0.0);
      
     //double delta_r = (r_f - r_i)/(n_rows-1);
-    double den;
+    
 
 //  Condiciones iniciales
    
@@ -39,19 +39,20 @@ void setInitialConditions(Matrix& s, const std::string& filename)
 
 		rp[i] = r_i + delta_r * i;  
 
-		
-
-
-		if (rp[i] >= r_o) {
-			s[i][0] = pow(((rp[i] - r_o)/(r_f-r_o)),2);
+		if (rp[i] > r_o) {
+			s[i][0] = 1.0-P2((r_f-rp[i])/(r_f-r_o)); //pow(((rp[i] - r_o)/(r_f-r_o)),2);
 		}
 		else {
 			s[i][0] = 0;
 		}
 		
-		file  << den << "\t" << s[i][0] << std::endl;
+		double aux = s[i][0];
+		
+		double den = density(rp[i]);
+		
+		file  << den << "\t" << aux << std::endl;
 	}
-
+ 
 	
 	file.close();
 	

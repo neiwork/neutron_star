@@ -1,1 +1,1 @@
-./Debug/mathFunctions.cpp.o ./Debug/vectorOperations.cpp.o ./Debug/matrixInit.cpp.o ./Debug/interpolation.cpp.o ./Debug/thomasMethod.cpp.o ./Debug/gaussianScaledPivoting.cpp.o ./Debug/fbisection.cpp.o ./Debug/elimiGaussiana.cpp.o ./Debug/RungeKutta.cpp.o ./Debug/bisection2.cpp.o
+./Debug/bisection2.cpp.o ./Debug/mathFunctions.cpp.o ./Debug/thomasMethod.cpp.o ./Debug/interpolation.cpp.o ./Debug/matrixInit.cpp.o ./Debug/vectorOperations.cpp.o ./Debug/gaussianScaledPivoting.cpp.o ./Debug/fbisection.cpp.o ./Debug/elimiGaussiana.cpp.o ./Debug/RungeKutta.cpp.o

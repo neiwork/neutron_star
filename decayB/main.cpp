@@ -22,37 +22,54 @@ int main(int argc, char **argv)
     std::ofstream myfile2;
 
     myfile1.open ("den-s-inicial.txt");
-    myfile2.open ("fr-10-6.txt");
+    myfile2.open ("fr-10-6_gauss.txt");
 
     
     
 	Matrix s;
 	setInitialConditions(s, "pos-den-31.txt");
 	
-	Matrix bb;
-	matrixInit(bb,n_rows,n_rows,0.0);   //double bb[n_rows][n_rows];
-    
-	Vector bd(n_rows,0.0);     //std::vector<double> bd(n_rows);
-	Vector cd(n_rows-1,0.0);     //std::vector<double> cd(n_rows-1);
-	Vector ad(n_rows,0.0);       //std::vector<double> ad(n_rows);
+	Vector t(n_time,0.0); 
+	t[0] = t_i;
+	
+	for (size_t k = 1; k < n_time; ++k){
+		
+		double dt = t[k-1]*(t_int - 1.0);
+	
+		Matrix bb;
+		matrixInit(bb,n_rows,n_rows,0.0);   //double bb[n_rows][n_rows];
+		
+		Vector bd(n_rows,0.0);     //std::vector<double> bd(n_rows);
+		Vector cd(n_rows,0.0);     //std::vector<double> cd(n_rows-1);
+		Vector ad(n_rows,0.0);       //std::vector<double> ad(n_rows);
+		Vector d(n_rows,0.0);
 
+		setMatrix(bb, cd, ad, bd, d, dt, s, k-1);
 
-	setMatrix(bb, cd, ad, bd);
-
-	thomasMethod(bb, cd, ad, bd, s, n_rows, n_time);
-
+		/*Vector x(n_rows,0.0);
+		thomasMethod(cd, ad, bd, d, x, n_rows); //, k-1);
+		
+		for (size_t i = 0; i < n_rows; ++i){
+			s[i][k] = x[i];             
+		}*/
+		
+		
+		t[k] = t[k-1]*t_int;
+	}
 
     Vector rp(n_rows,0.0); 
 	
-    for (int i = 0; i < n_rows; i++){
-		
-		rp[i] = r_i + delta_r * i; 
-		
-		double den = density(rp[i]);
-		
-		myfile2 << den << " " << s[i][n_time-1] << std::endl;
+	for (size_t j = 1; j < n_time; ++j){
+		for (int i = 0; i < n_rows; ++i){
+			
+			rp[i] = r_i + delta_r * i; 
+			
+			double den = density(rp[i]);
+			
+			myfile2 << log10(den) << "\t" << log10(t[j]/yr) << "\t" << log10(s[i][j]) << std::endl;
+		}
     }
-    
+	
     myfile1.close();
     myfile2.close();
 

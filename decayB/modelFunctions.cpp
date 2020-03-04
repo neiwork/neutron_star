@@ -8,7 +8,7 @@
     {
         double temperature;
         
-        temperature = pow(10.0, 7.887 + 0.528*(1 - exp(-0.899*(log10(Md) + 11))));
+        temperature = pow(10.0, 7.887 + 0.528*(1.0 - exp(-0.899*(log10(Md) + 11.0))));
         return temperature;
     }
 
@@ -69,6 +69,7 @@
     }
 	
 	////////////////////////////////////
+	//parametrizacion de Geppper&Urpin 1994
 	double density(double r)
 	{
 		double den;
@@ -115,17 +116,17 @@
 
 		double Tm = 3.04e7*pow((Z/26),5./3.)*(170./Gamma)*x; //temperatura de fusion
 		
-		if(temp > Tm){ //dispersion por iones p
+		/*if(temp > Tm){ //dispersion por iones p
 			double lambda_p = log10(Gamma); //10.0; //aprox, en realidad es log(12.0*pi*ne*Lambda_De^3/Z)
 			double cond_p = 8.53e21*P3(x)/(Z*lambda_p*(1.0+P2(x)));
 			return cond_p;
 		}
-		else{ //dispersion por phonons ph
+		else{ //dispersion por phonons ph*/
 			double Td = 2.4e6 * sqrt(2.0*Z/A) * pow(x,3./2.);       // Debye temperature
 			double u = 0.45*temp/Td;
 			double cond_ph = 1.21e28 * (pow(x,4)/(2.0+P2(x))) * sqrt((P2(u) + 0.017)/(temp*u)); 
 			return cond_ph;
-		}
+		//}
 
 		
 	}
@@ -156,8 +157,8 @@
    {     
 	   double den_cr = 1.e12;					//cambio en la parametrizacion de la conductividad
 		
-		
-		return 1.0/(1.0/sigma_ph(den,temp)+1.0/sigma_imp(den));  
+		double cond = 1.0/(1.0/sigma_ph(den,temp)+1.0/sigma_imp(den));  
+		return cond;
 		/*if (den < den_cr){
 			return sigma_ph(den,temp); 
         }

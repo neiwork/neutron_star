@@ -6,6 +6,9 @@
  cd vector diagonal superior de aa
  bd diagonal de la matriz aa
  
- bb matriz por el termino en S^k_j
+ bb matriz por el termino en S^k_j es el vector d
+  * x es el vector solucion
   */
-void thomasMethod(Matrix bb, Vector cd, Vector ad, Vector bd, Matrix& s, int rows, int ntime);
+//void thomasMethod(Matrix bb, Vector cd, Vector ad, Vector bd, Matrix& s, int rows, int ntime);
+
+void thomasMethod(Vector cd, Vector ad, Vector bd, Vector d, Vector x, int rows);

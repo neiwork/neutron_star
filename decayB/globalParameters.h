@@ -11,8 +11,9 @@
 	extern const int n_time; 
 	extern const double t_i;                             // el tiempo se mide en segundos
     extern const double t_f;
-	extern const double delta_t;        //CUIDADO! aqui no tengo un DO para el tiempo porque solo estoy probando como escribir AA y BB
-    
+	//extern const double delta_t;        //CUIDADO! aqui no tengo un DO para el tiempo porque solo estoy probando como escribir AA y BB
+    extern const double t_int;
+	
 	extern const double accr_rate;             //[solarMasses yr^-1]
 	
 	extern const double Q;
