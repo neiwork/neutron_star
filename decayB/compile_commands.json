@@ -95,30 +95,6 @@
   "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
   "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/bisection2.h -o /home/flor/projects/github/neutron_star/lib/fmath/bisection2.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/home/flor/projects/github/neutron_star/decayB/modelFunctions.cpp",
-  "directory": "/home/flor/projects/github/neutron_star/decayB",
-  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/modelFunctions.cpp -o /home/flor/projects/github/neutron_star/decayB/modelFunctions.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
- }, {
-  "file": "/home/flor/projects/github/neutron_star/decayB/matrixComponents.h",
-  "directory": "/home/flor/projects/github/neutron_star/decayB",
-  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/matrixComponents.h -o /home/flor/projects/github/neutron_star/decayB/matrixComponents.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
- }, {
-  "file": "/home/flor/projects/github/neutron_star/decayB/globalParameters.cpp",
-  "directory": "/home/flor/projects/github/neutron_star/decayB",
-  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/globalParameters.cpp -o /home/flor/projects/github/neutron_star/decayB/globalParameters.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
- }, {
-  "file": "/home/flor/projects/github/neutron_star/decayB/main.cpp",
-  "directory": "/home/flor/projects/github/neutron_star/decayB",
-  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/main.cpp -o /home/flor/projects/github/neutron_star/decayB/main.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
- }, {
-  "file": "/home/flor/projects/github/neutron_star/decayB/matrixComponents.cpp",
-  "directory": "/home/flor/projects/github/neutron_star/decayB",
-  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/matrixComponents.cpp -o /home/flor/projects/github/neutron_star/decayB/matrixComponents.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
- }, {
-  "file": "/home/flor/projects/github/neutron_star/decayB/globalParameters.h",
-  "directory": "/home/flor/projects/github/neutron_star/decayB",
-  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/globalParameters.h -o /home/flor/projects/github/neutron_star/decayB/globalParameters.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
- }, {
   "file": "/home/flor/projects/github/neutron_star/decayB/modelFunctions.h",
   "directory": "/home/flor/projects/github/neutron_star/decayB",
   "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/modelFunctions.h -o /home/flor/projects/github/neutron_star/decayB/modelFunctions.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
@@ -130,4 +106,36 @@
   "file": "/home/flor/projects/github/neutron_star/decayB/initialConditions.h",
   "directory": "/home/flor/projects/github/neutron_star/decayB",
   "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/initialConditions.h -o /home/flor/projects/github/neutron_star/decayB/initialConditions.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
+ }, {
+  "file": "/home/flor/projects/github/neutron_star/decayB/globalParameters.h",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/globalParameters.h -o /home/flor/projects/github/neutron_star/decayB/globalParameters.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
+ }, {
+  "file": "/home/flor/projects/github/neutron_star/decayB/main.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/main.cpp -o /home/flor/projects/github/neutron_star/decayB/main.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
+ }, {
+  "file": "/home/flor/projects/github/neutron_star/decayB/matrixComponents.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/matrixComponents.cpp -o /home/flor/projects/github/neutron_star/decayB/matrixComponents.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
+ }, {
+  "file": "/home/flor/projects/github/neutron_star/decayB/modelFunctions.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/modelFunctions.cpp -o /home/flor/projects/github/neutron_star/decayB/modelFunctions.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
+ }, {
+  "file": "/home/flor/projects/github/neutron_star/decayB/prueba_gauss.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/prueba_gauss.cpp -o /home/flor/projects/github/neutron_star/decayB/prueba_gauss.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
+ }, {
+  "file": "/home/flor/projects/github/neutron_star/decayB/prueba_gauss.h",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/prueba_gauss.h -o /home/flor/projects/github/neutron_star/decayB/prueba_gauss.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
+ }, {
+  "file": "/home/flor/projects/github/neutron_star/decayB/globalParameters.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/globalParameters.cpp -o /home/flor/projects/github/neutron_star/decayB/globalParameters.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
+ }, {
+  "file": "/home/flor/projects/github/neutron_star/decayB/matrixComponents.h",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/matrixComponents.h -o /home/flor/projects/github/neutron_star/decayB/matrixComponents.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }]

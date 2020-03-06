@@ -2,7 +2,7 @@
 
 #include "modelFunctions.h"
 #include "globalParameters.h"
-#include <fmath/elimiGaussiana.h>
+
 
 #include <string>
 #include <iostream>
@@ -25,10 +25,10 @@ void setMatrix(Matrix& bb, Vector& cd, Vector& ad, Vector& bd, Vector& d, double
 
     Vector rp(n_rows,0.0);
     
-    for (int i = 0; i < n_rows; i++){           
+    for (size_t i = 0; i < n_rows; ++i){           
 	
 		//if (i == 0) {
-		//	s[i][k] = 0.0;
+			//s[i][k] = 0.0;
 		//}
     
         rp[i] = r_i + delta_r * i;
@@ -43,21 +43,15 @@ void setMatrix(Matrix& bb, Vector& cd, Vector& ad, Vector& bd, Vector& d, double
 		double sigma = conductivity(den,temp); //sigma_ph(den,temp); 
 
 		myfile4 << rp[i] << "\t" << den << "\t" << "sigma ph" << "\t" << sigma << std::endl;  
-       
-
-	   // myfile3 << rp[i] << "\t" << den << "\t" << sigma << std::endl;  
-	   
-	   // sigma = (sigma1*sigma2)/(sigma1+sigma2);
-	  // myfile4 << den << "\t" << sigma << std::endl;
 		
 		double alpha = cLight2/(4.0*pi*sigma);  // alpha tiene unidades de cm^2/s
 
 		//bb == es la matriz bb
 		
 		//  myfile << rp[i] << " " << alpha << std::endl;
-		//ad[0] = 1; //ver, mejor = 0?            // Defino este valor para que no invente el vector
+		ad[0] = 0.0; //ver, mejor = 0?            // Defino este valor para que no invente el vector
 		
-		for (int j = 0; j < n_rows; j++){
+		for (size_t j = 0; j < n_rows; ++j){
             
 			if (j ==  i){
 			//bd == vector: diagonal de la matriz aa	
@@ -113,10 +107,10 @@ void setMatrix(Matrix& bb, Vector& cd, Vector& ad, Vector& bd, Vector& d, double
 // Calculo el vector que da el termino inhomogeneo (vector dd)
 //d(i) Vector que da el termino inhomogeneo: bb[i][j] * s[j][k]
 
-    for (int i = 0; i < n_rows; i++){  
+    for (size_t i = 0; i < n_rows; ++i){  
 		double sum = 0.0;
 		
-		for (size_t j = 1; j < n_rows; ++j){  //j=0; saco el primero por una condicion de borde?
+		for (size_t j = 0; j < n_rows; ++j){  //j=0; saco el primero por una condicion de borde?
 			sum = sum + bb[i][j] * s[j][k];
 		}
 		d[i] = sum;  
@@ -126,42 +120,7 @@ void setMatrix(Matrix& bb, Vector& cd, Vector& ad, Vector& bd, Vector& d, double
 	
 //}
 
-//prueba elim gaussiana
 
-
-		Matrix a;
-
-		matrixInit(a,n_rows,n_rows+1,0.0);
-		
-		for (int i = 0; i < n_rows; i++){
-			
-			a[i][i] = bd[i];
-			a[i][n_rows] = d[i];
-			
-			if (i == n_rows-1){
-				//a[i][i+1] = cd[i];
-				a[i][i-1] = ad[i];
-				
-            }
-			else if (i == n_rows-1){
-				//a[i][i+1] = cd[i];
-				a[i][i-1] = ad[i];
-			}
-		   else{
-				a[i][i+1] = cd[i];
-				//a[i][i-1] = ad[i];
-		   }
-		}
-		
-		Vector Ne(n_rows,0.0);
-		
-		elimiGaussiana(n_rows, a, Ne);
-		
-		for (int i = 0; i < n_rows; ++i){
-
-			s[i][k+1] = Ne[i];             
-			
-		}
 }
 
  

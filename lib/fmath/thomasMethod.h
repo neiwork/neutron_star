@@ -11,4 +11,4 @@
   */
 //void thomasMethod(Matrix bb, Vector cd, Vector ad, Vector bd, Matrix& s, int rows, int ntime);
 
-void thomasMethod(Vector cd, Vector ad, Vector bd, Vector d, Vector x, int rows);
+void thomasMethod(Vector cd, Vector ad, Vector bd, Vector d, Vector& x, int rows);

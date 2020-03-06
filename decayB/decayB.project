@@ -8,6 +8,8 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="prueba_gauss.h"/>
+    <File Name="prueba_gauss.cpp"/>
     <File Name="globalParameters.cpp"/>
     <File Name="matrixComponents.h"/>
     <File Name="matrixComponents.cpp"/>
