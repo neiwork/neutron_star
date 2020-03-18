@@ -23,7 +23,7 @@ int main(int argc, char **argv)
     std::ofstream myfile2;
 
     myfile1.open ("den-s-inicial.txt");
-    myfile2.open ("fr-10-6_gauss.txt");
+    myfile2.open ("f-thomas-1e6.txt");
 
     
     
@@ -47,7 +47,7 @@ int main(int argc, char **argv)
 
 		setMatrix(bb, cd, ad, bd, d, dt, s, k-1);
 
-		s[0][k] = 0.0;
+	//	s[0][k] = 0.0;          // creo que esta condicion esta puesta 2 veces (ver metodo thomas)
 			
 		Vector x(n_rows,0.0);
 		thomasMethod(cd, ad, bd, d, x, n_rows); //, k-1);
@@ -72,7 +72,7 @@ int main(int argc, char **argv)
 
     Vector rp(n_rows,0.0); 
 	
-	for (size_t j = 1; j < n_time; ++j){
+	//for (size_t j = 1; j < n_time; ++j){
 		for (int i = 0; i < n_rows; ++i){
 			
 			rp[i] = r_i + delta_r * i; 
@@ -80,9 +80,9 @@ int main(int argc, char **argv)
 			double den = density(rp[i]);
 			
 			//myfile2 << (den) << "\t" << log10(t[j]/yr) << "\t" << (s[i][j]) << std::endl;
-			myfile2 << (den) << "\t" << (s[i][j]) << std::endl; 
+			myfile2 << (den) << "\t" << (s[i][n_time-1]) << std::endl; 
 		}
-    }
+    //}
 	
     myfile1.close();
     myfile2.close();

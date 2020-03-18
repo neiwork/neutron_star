@@ -18,7 +18,7 @@ void setMatrix(Matrix& bb, Vector& cd, Vector& ad, Vector& bd, Vector& d, double
 	
 	std::ofstream myfile3;
     std::ofstream myfile4;
-    //myfile3.open ("pos-den-31.txt");
+    myfile3.open ("pos-den-flor.txt");
     myfile4.open ("r-den-sigma.txt");
 	
     double temp = Temp(accr_rate); //ver unidades de accr_rate
@@ -37,12 +37,12 @@ void setMatrix(Matrix& bb, Vector& cd, Vector& ad, Vector& bd, Vector& d, double
  
 		double den = density(rp[i]);
 		
-		myfile3 << rp[i] << "\t" << den <<std::endl;
+		myfile3 << k << "\t" << rp[i] << "\t" << den <<std::endl;
     
    
 		double sigma = conductivity(den,temp); //sigma_ph(den,temp); 
 
-		myfile4 << rp[i] << "\t" << den << "\t" << "sigma ph" << "\t" << sigma << std::endl;  
+		myfile4 << k << "\t" << rp[i] << "\t" << den << "\t" << "sigma" << "\t" << sigma << std::endl;  
 		
 		double alpha = cLight2/(4.0*pi*sigma);  // alpha tiene unidades de cm^2/s
 

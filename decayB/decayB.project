@@ -33,13 +33,14 @@
       </Linker>
       <ResourceCompiler Options=""/>
     </GlobalSettings>
-    <Configuration Name="Debug" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="LLDB Debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
       <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
         <IncludePath Value="."/>
         <IncludePath Value="../lib"/>
       </Compiler>
       <Linker Options="" Required="yes">
         <LibraryPath Value="../lib/fmath/Debug"/>
+        <LibraryPath Value="/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/Debug"/>
         <Library Value="fmath"/>
       </Linker>
       <ResourceCompiler Options="" Required="no"/>

@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Project Name="fmath" Version="10.0.0" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
   <Description/>
   <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="thomasMethod.h"/>
+    <File Name="thomasMethod.cpp"/>
+    <File Name="vectorOperations.h"/>
+    <File Name="vectorOperations.cpp"/>
+    <File Name="RungeKutta.h"/>
+    <File Name="RungeKutta.cpp"/>
+    <File Name="physics.h"/>
+    <File Name="matrixInit.h"/>
+    <File Name="matrixInit.cpp"/>
+    <File Name="mathFunctions.h"/>
+    <File Name="mathFunctions.cpp"/>
+    <File Name="mathematics.h"/>
+    <File Name="interpolation.h"/>
+    <File Name="interpolation.cpp"/>
+    <File Name="gaussianScaledPivoting.h"/>
+    <File Name="gaussianScaledPivoting.cpp"/>
+    <File Name="fbisection.h" ExcludeProjConfig="Debug;"/>
+    <File Name="fbisection.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="elimiGaussiana.h"/>
+    <File Name="elimiGaussiana.cpp"/>
+    <File Name="constants.h"/>
+    <File Name="configure.h"/>
+    <File Name="bisection2.h"/>
+    <File Name="bisection2.cpp"/>
+  </VirtualDirectory>
   <Settings Type="Static Library">
     <GlobalSettings>
       <Compiler Options="" C_Options="" Assembler="">
@@ -12,7 +43,7 @@
       </Linker>
       <ResourceCompiler Options=""/>
     </GlobalSettings>
-    <Configuration Name="Debug" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="LLDB Debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
       <Compiler Options="-g" C_Options="-g" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
         <IncludePath Value="."/>
       </Compiler>
@@ -91,30 +122,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="src">
-    <File Name="thomasMethod.h"/>
-    <File Name="thomasMethod.cpp"/>
-    <File Name="vectorOperations.h"/>
-    <File Name="vectorOperations.cpp"/>
-    <File Name="RungeKutta.h"/>
-    <File Name="RungeKutta.cpp"/>
-    <File Name="physics.h"/>
-    <File Name="matrixInit.h"/>
-    <File Name="matrixInit.cpp"/>
-    <File Name="mathFunctions.h"/>
-    <File Name="mathFunctions.cpp"/>
-    <File Name="mathematics.h"/>
-    <File Name="interpolation.h"/>
-    <File Name="interpolation.cpp"/>
-    <File Name="gaussianScaledPivoting.h"/>
-    <File Name="gaussianScaledPivoting.cpp"/>
-    <File Name="fbisection.h"/>
-    <File Name="fbisection.cpp"/>
-    <File Name="elimiGaussiana.h"/>
-    <File Name="elimiGaussiana.cpp"/>
-    <File Name="constants.h"/>
-    <File Name="configure.h"/>
-    <File Name="bisection2.h"/>
-    <File Name="bisection2.cpp"/>
-  </VirtualDirectory>
 </CodeLite_Project>

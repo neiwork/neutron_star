@@ -17,7 +17,7 @@ namespace {
 	}
 }
 
-RungeKuttaOpt DefOpt_RungeKutta{ 50, 50 };
+//RungeKuttaOpt DefOpt_RungeKutta{ 50, 50 };
 double RungeKutta(double a, double b, fun1 c, fun1 d, fun2 f, const RungeKuttaOpt& opt)    //paso como argumento los cuatro limites
 //de las integrales y la funcion a integrar																														
 {
@@ -83,7 +83,7 @@ double RungeKutta(double a, double b, fun1 c, fun1 d, fun2 f, const RungeKuttaOp
 
 }
 
-RungeKuttaOpt DefOpt_RungeKuttaSimple{ 50, -1 };
+//RungeKuttaOpt DefOpt_RungeKuttaSimple{ 50, -1 };
 
 double RungeKuttaSimple(double a, double b, fun1 f, const RungeKuttaOpt& opt)
 {
