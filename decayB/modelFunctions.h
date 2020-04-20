@@ -17,6 +17,7 @@ double density(double r);
 /*Declaracion de la funcion density3*/
 //double density3(double pos);
 
+double condPothekin(double den, double temp, double B);
 
 double conductivity(double den,double temp);
 

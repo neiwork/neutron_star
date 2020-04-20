@@ -23,7 +23,7 @@ int main(int argc, char **argv)
     std::ofstream myfile2;
 
     myfile1.open ("den-s-inicial.txt");
-    myfile2.open ("f-thomas-1e6.txt");
+    myfile2.open ("f-thomas-VER.txt");
 
     
     

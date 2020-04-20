@@ -41,7 +41,11 @@
       <Linker Options="" Required="yes">
         <LibraryPath Value="../lib/fmath/Debug"/>
         <LibraryPath Value="/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/Debug"/>
+        <LibraryPath Value="pothekin/"/>
+        <LibraryPath Value="/usr/local/gfortran/lib"/>
         <Library Value="fmath"/>
+        <Library Value="conduct19"/>
+        <Library Value="gfortran"/>
       </Linker>
       <ResourceCompiler Options="" Required="no"/>
       <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>

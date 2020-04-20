@@ -19,7 +19,7 @@ void setMatrix(Matrix& bb, Vector& cd, Vector& ad, Vector& bd, Vector& d, double
 	std::ofstream myfile3;
     std::ofstream myfile4;
     myfile3.open ("pos-den-flor.txt");
-    myfile4.open ("r-den-sigma.txt");
+    myfile4.open ("r-den-pothechot.txt");
 	
     double temp = Temp(accr_rate); //ver unidades de accr_rate
 
@@ -39,8 +39,11 @@ void setMatrix(Matrix& bb, Vector& cd, Vector& ad, Vector& bd, Vector& d, double
 		
 		myfile3 << k << "\t" << rp[i] << "\t" << den <<std::endl;
     
+        double magField = s[n_rows-1][k] * 1.0e12;
+        
+       // std::cout << k << "\t" << s[n_rows-1][k] << std::endl;
    
-		double sigma = conductivity(den,temp); //sigma_ph(den,temp); 
+		double sigma = condPothekin(den,temp,magField); //sigma_ph(den,temp); 
 
 		myfile4 << k << "\t" << rp[i] << "\t" << den << "\t" << "sigma" << "\t" << sigma << std::endl;  
 		
