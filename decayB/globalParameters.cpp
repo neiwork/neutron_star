@@ -1,5 +1,7 @@
 #include "globalParameters.h"
 
+#include "read.h"
+
 #include <fmath/physics.h>
       
 
@@ -21,3 +23,20 @@
 	const double Q = 1;             // valor que utliza Federico, tambien usa Q = 10
     
   //  const double Bsup = 1.0e12;     // campo magnetico en la superficie de la estrella de neutrones en Gauss
+  
+
+	
+  	//const Vector& rho;
+	//const Vector& r;
+	Vector rho_N(50,0.0);
+	Vector N(50,0.0);
+	Vector rho_Z(50,0.0);
+	Vector Z(50,0.0);
+	
+	
+void setGlobalConfig()
+	{
+	
+	read ("files/N_A56.txt", rho_N, N);
+	read ("files/Z_A56.txt", rho_Z, Z);
+}

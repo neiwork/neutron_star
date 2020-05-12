@@ -6,6 +6,13 @@
 double Temp(double Md);
 
 
+/*A y Z leidos de tablas de Haensel y Zdunik (2008)*/
+double atomicNumberZ(double density);
+double massNumberA(double density);
+
+
+
+
 /* parametrizacion de xx*/ 
 double density(double r);
 

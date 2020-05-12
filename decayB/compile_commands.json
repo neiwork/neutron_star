@@ -1,141 +1,149 @@
 [{
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/bisection2.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/bisection2.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/bisection2.cpp\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/bisection2.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/bisection2.cpp -o /home/flor/projects/github/neutron_star/lib/fmath/bisection2.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/physics.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/physics.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/physics.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/mathFunctions.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/mathFunctions.cpp -o /home/flor/projects/github/neutron_star/lib/fmath/mathFunctions.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/constants.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/constants.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/constants.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/mathFunctions.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/mathFunctions.h -o /home/flor/projects/github/neutron_star/lib/fmath/mathFunctions.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/elimiGaussiana.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/elimiGaussiana.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/elimiGaussiana.cpp\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/thomasMethod.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/thomasMethod.h -o /home/flor/projects/github/neutron_star/lib/fmath/thomasMethod.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/vectorOperations.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/vectorOperations.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/vectorOperations.cpp\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/mathematics.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/mathematics.h -o /home/flor/projects/github/neutron_star/lib/fmath/mathematics.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/elimiGaussiana.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/elimiGaussiana.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/elimiGaussiana.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/physics.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/physics.h -o /home/flor/projects/github/neutron_star/lib/fmath/physics.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/mathFunctions.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/mathFunctions.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/mathFunctions.cpp\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/thomasMethod.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/thomasMethod.cpp -o /home/flor/projects/github/neutron_star/lib/fmath/thomasMethod.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/mathematics.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/mathematics.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/mathematics.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/interpolation.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/interpolation.h -o /home/flor/projects/github/neutron_star/lib/fmath/interpolation.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/gaussianScaledPivoting.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/gaussianScaledPivoting.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/gaussianScaledPivoting.cpp\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/interpolation.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/interpolation.cpp -o /home/flor/projects/github/neutron_star/lib/fmath/interpolation.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/interpolation.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/interpolation.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/interpolation.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/matrixInit.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/matrixInit.cpp -o /home/flor/projects/github/neutron_star/lib/fmath/matrixInit.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/fbisection.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/fbisection.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/fbisection.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/vectorOperations.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/vectorOperations.h -o /home/flor/projects/github/neutron_star/lib/fmath/vectorOperations.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/interpolation.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/interpolation.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/interpolation.cpp\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/vectorOperations.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/vectorOperations.cpp -o /home/flor/projects/github/neutron_star/lib/fmath/vectorOperations.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/thomasMethod.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/thomasMethod.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/thomasMethod.cpp\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/gaussianScaledPivoting.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/gaussianScaledPivoting.h -o /home/flor/projects/github/neutron_star/lib/fmath/gaussianScaledPivoting.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/mathFunctions.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/mathFunctions.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/mathFunctions.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/RungeKutta.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/RungeKutta.h -o /home/flor/projects/github/neutron_star/lib/fmath/RungeKutta.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/matrixInit.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/matrixInit.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/matrixInit.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/elimiGaussiana.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/elimiGaussiana.h -o /home/flor/projects/github/neutron_star/lib/fmath/elimiGaussiana.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/configure.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/configure.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/configure.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/matrixInit.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/matrixInit.h -o /home/flor/projects/github/neutron_star/lib/fmath/matrixInit.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/matrixInit.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/matrixInit.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/matrixInit.cpp\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/gaussianScaledPivoting.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/gaussianScaledPivoting.cpp -o /home/flor/projects/github/neutron_star/lib/fmath/gaussianScaledPivoting.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/fbisection.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/fbisection.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/fbisection.cpp\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/fbisection.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/fbisection.cpp -o /home/flor/projects/github/neutron_star/lib/fmath/fbisection.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/RungeKutta.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/RungeKutta.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/RungeKutta.cpp\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/elimiGaussiana.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/elimiGaussiana.cpp -o /home/flor/projects/github/neutron_star/lib/fmath/elimiGaussiana.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/vectorOperations.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/vectorOperations.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/vectorOperations.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/RungeKutta.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/RungeKutta.cpp -o /home/flor/projects/github/neutron_star/lib/fmath/RungeKutta.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/gaussianScaledPivoting.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/gaussianScaledPivoting.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/gaussianScaledPivoting.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/fbisection.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/fbisection.h -o /home/flor/projects/github/neutron_star/lib/fmath/fbisection.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/RungeKutta.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/RungeKutta.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/RungeKutta.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/configure.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/configure.h -o /home/flor/projects/github/neutron_star/lib/fmath/configure.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/bisection2.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/bisection2.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/bisection2.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/constants.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/constants.h -o /home/flor/projects/github/neutron_star/lib/fmath/constants.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/thomasMethod.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/thomasMethod.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/lib/fmath/thomasMethod.h\".o  -I. -I.  -g"
+  "file": "/home/flor/projects/github/neutron_star/lib/fmath/bisection2.h",
+  "directory": "/home/flor/projects/github/neutron_star/lib/fmath",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/lib/fmath/bisection2.h -o /home/flor/projects/github/neutron_star/lib/fmath/bisection2.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/initialConditions.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/initialConditions.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/initialConditions.h\".o  -I. -I. -I../lib  -g  -O0  -Wall"
+  "file": "/home/flor/projects/github/neutron_star/decayB/main.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/main.cpp -o /home/flor/projects/github/neutron_star/decayB/main.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/main.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/main.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/main.cpp\".o  -I. -I. -I../lib  -g  -O0  -Wall"
+  "file": "/home/flor/projects/github/neutron_star/decayB/modelFunctions.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/modelFunctions.cpp -o /home/flor/projects/github/neutron_star/decayB/modelFunctions.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/globalParameters.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/globalParameters.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/globalParameters.h\".o  -I. -I. -I../lib  -g  -O0  -Wall"
+  "file": "/home/flor/projects/github/neutron_star/decayB/read.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/read.cpp -o /home/flor/projects/github/neutron_star/decayB/read.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/matrixComponents.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/matrixComponents.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/matrixComponents.cpp\".o  -I. -I. -I../lib  -g  -O0  -Wall"
+  "file": "/home/flor/projects/github/neutron_star/decayB/prueba_gauss.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/prueba_gauss.cpp -o /home/flor/projects/github/neutron_star/decayB/prueba_gauss.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/matrixComponents.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/matrixComponents.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/matrixComponents.h\".o  -I. -I. -I../lib  -g  -O0  -Wall"
+  "file": "/home/flor/projects/github/neutron_star/decayB/read.h",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/read.h -o /home/flor/projects/github/neutron_star/decayB/read.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/initialConditions.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/initialConditions.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/initialConditions.cpp\".o  -I. -I. -I../lib  -g  -O0  -Wall"
+  "file": "/home/flor/projects/github/neutron_star/decayB/matrixComponents.h",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/matrixComponents.h -o /home/flor/projects/github/neutron_star/decayB/matrixComponents.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/globalParameters.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/globalParameters.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/globalParameters.cpp\".o  -I. -I. -I../lib  -g  -O0  -Wall"
+  "file": "/home/flor/projects/github/neutron_star/decayB/globalParameters.h",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/globalParameters.h -o /home/flor/projects/github/neutron_star/decayB/globalParameters.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/modelFunctions.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/modelFunctions.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/modelFunctions.h\".o  -I. -I. -I../lib  -g  -O0  -Wall"
+  "file": "/home/flor/projects/github/neutron_star/decayB/prueba_gauss.h",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/prueba_gauss.h -o /home/flor/projects/github/neutron_star/decayB/prueba_gauss.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/prueba_gauss.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/prueba_gauss.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/prueba_gauss.cpp\".o  -I. -I. -I../lib  -g  -O0  -Wall"
+  "file": "/home/flor/projects/github/neutron_star/decayB/initialConditions.h",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/initialConditions.h -o /home/flor/projects/github/neutron_star/decayB/initialConditions.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/modelFunctions.cpp",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/modelFunctions.cpp\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/modelFunctions.cpp\".o  -I. -I. -I../lib  -g  -O0  -Wall"
+  "file": "/home/flor/projects/github/neutron_star/decayB/matrixComponents.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/matrixComponents.cpp -o /home/flor/projects/github/neutron_star/decayB/matrixComponents.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }, {
-  "file": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/prueba_gauss.h",
-  "directory": "/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB",
-  "command": "clang  -c \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/prueba_gauss.h\" -o \"/Users/daniela/Work/Magnetic fields-neutron stars-alternative theories of gravity/Programa Flor/neutron_star/decayB/prueba_gauss.h\".o  -I. -I. -I../lib  -g  -O0  -Wall"
+  "file": "/home/flor/projects/github/neutron_star/decayB/initialConditions.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/initialConditions.cpp -o /home/flor/projects/github/neutron_star/decayB/initialConditions.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
+ }, {
+  "file": "/home/flor/projects/github/neutron_star/decayB/globalParameters.cpp",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/globalParameters.cpp -o /home/flor/projects/github/neutron_star/decayB/globalParameters.cpp.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
+ }, {
+  "file": "/home/flor/projects/github/neutron_star/decayB/modelFunctions.h",
+  "directory": "/home/flor/projects/github/neutron_star/decayB",
+  "command": "clang  -c /home/flor/projects/github/neutron_star/decayB/modelFunctions.h -o /home/flor/projects/github/neutron_star/decayB/modelFunctions.h.o  -I/usr/include/c++/5 -I/usr/include/x86_64-linux-gnu/c++/5 -I/usr/include/c++/5/backward -I/usr/lib/gcc/x86_64-linux-gnu/5/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I. -I../lib  -g  -O0  -Wall"
  }]

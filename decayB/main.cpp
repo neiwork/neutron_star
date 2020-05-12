@@ -19,6 +19,10 @@
 
 int main(int argc, char **argv)
 {
+	
+	setGlobalConfig(); 
+	
+	
     std::ofstream myfile1;
     std::ofstream myfile2;
 

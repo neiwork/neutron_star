@@ -1,10 +1,4 @@
 #Directories
-gsl/
-gsl-2.5/
-boost_1_64_0/
-boost_1_66_0/
-external/
-radproc/
 **/.codelite/
 
 .vscode/
@@ -52,10 +46,6 @@ Makefile
 *.out
 *.app
 
-
-# Generated files
-*.txt
-*.ipynb
 
 # Build results
 [Dd]ebug/

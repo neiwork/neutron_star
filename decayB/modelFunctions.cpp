@@ -2,6 +2,8 @@
 
 #include "globalParameters.h"
 
+#include <fmath/interpolation.h>
+
 
 
 
@@ -14,6 +16,35 @@ extern "C" void condconv_(double* T6,double* RHO,double* B,double* Zion,double* 
 				double* SIGMA,double* CKAPPA,double* QJ,double* SIGMAT,double* CKAPPAT,double* QJT,double* SIGMAH,double* CKAPPAH,double* QJH);
 
 
+
+/*double eqState()
+{
+	
+	
+interpol(u, Ecreator, Ncreator, Ncreator.size() - 1);
+}
+*/
+
+
+
+
+double atomicNumberZ(double density)
+{
+	double res = interpol(density, rho_Z, Z, Z.size() - 1);
+	return res;
+}
+
+double massNumberA(double density)
+{
+	double Z = atomicNumberZ(density);
+	
+	double nucleonNumber = interpol(density, rho_N, N, N.size() - 1);
+	double A = nucleonNumber-Z;
+	return A;
+}
+
+
+
 double condPothekin(double den, double temp, double B)
 	{
 		
@@ -21,8 +52,8 @@ double condPothekin(double den, double temp, double B)
 	const double CONVOPAC = 3.02242e-4; //conv.th.conductivity [erg cm^{-1} s^{-1} K^{-1}] to opac. [cm^2/g]
 
 	//write(*,'('' Charge and atomic mass of ions (Z,A): ''$)')
-	double Zion = 30; //Z;
-	double CMI = 130;//A;
+	double Zion = atomicNumberZ(den); //30; //Z;
+	double CMI = massNumberA(den); //130;//A;
 	
 	//write(*,'('' Impurity parameter (effective Z): ''$)')
 	double Zimp = Q;
@@ -77,72 +108,19 @@ C%C      write(*,'('' log_{10}(el.conductivity[S/m] ='',F8.3)') SIGMAlg  */
         return temperature;
     }
 
+////////////////////////////////////
 
-    //---------------------------------------------------------------------------------------------------------
-    // Definicion de la funcion density 1
-    
-    double density1(double pos)
-    {
-       // double den1_a0, den1_a1, den1_a2;
-        double den1;
-        
-        
-        //den1_a0 = 1.98017e6;
-       // den1_a1 = 614102;
-       // den1_a2 = 12106.8;
-       //  den1_a0 + den1_a1 * pos + den1_a2 * pow(pos,2);     
-
- //      den1 = 1.516935688136645e6 + 816817.8832152047 * pos;
- 
-        den1 = 1.609456e6 + 7920.0 * P3(pos);
-       
-       return den1;
-    }
-    // ---------------------------------------------------------------------------------------------------------------------------
-   // Definicion de la funcion density2
-
-//    double density2(double pos)
-//    {
-    
-//    double den2_a0, den2_a1;
- //   double den2;
-  
-   
-   
-   
- //       den2_a0 = 6.001402381791151e7;
- //       den2_a1 = 3465.2776436715776;
-        
-        
-  //      den2 = den2_a0 + den2_a1 * pow(pos,3.2);           
-  //      return den2;
-    
-  //  }
-    
-    //------------------------------------------------------------------------------------------------------------------------------
-    // Definicion de la funcion density3
-    
-    double density3(double pos)
-    {
-        double den3;
-
-    //den3 = pow(pos,4.929545434398888);
-    
-      den3 = pow(pos,4.9494066);  
-
-        return den3;
-    }
-	
-	////////////////////////////////////
 	//parametrizacion de Geppper&Urpin 1994
 	double density(double r)
 	{
+		double pos = r_f - r;
 		double den;
-		if (r_f - r <= 100.0) {
-			den = density1(r_f - r);
+		
+		if (pos <= 100.0) {
+			den = 1.609456e6 + 7920.0 * P3(pos);   //den1  density1(r_f - r);
 		}
 		else {
-			den = density3(r_f - r);
+			den = pow(pos,4.9494066);   //den3 density3(r_f - r);
 		}
 		return den;
 	}
@@ -243,3 +221,63 @@ C%C      write(*,'('' log_{10}(el.conductivity[S/m] ='',F8.3)') SIGMAlg  */
            cond_trans =-3.083026340166874e27 + 3.7654540810016265e15 * den;
            return cond_trans;
         }
+		
+		
+		
+		
+		   // ---------------------------------------------------------------------------------------------------------------------------
+/* 
+ * // Definicion de la funcion density2
+
+//    double density2(double pos)
+//    {
+    
+//    double den2_a0, den2_a1;
+ //   double den2;
+  
+   
+   
+   
+ //       den2_a0 = 6.001402381791151e7;
+ //       den2_a1 = 3465.2776436715776;
+        
+        
+  //      den2 = den2_a0 + den2_a1 * pow(pos,3.2);           
+  //      return den2;
+    
+  //  }
+    //---------------------------------------------------------------------------------------------------------
+    // Definicion de la funcion density 1
+    
+    double density1(double pos)
+    {
+       // double den1_a0, den1_a1, den1_a2;
+        double den1;
+        
+        
+        //den1_a0 = 1.98017e6;
+       // den1_a1 = 614102;
+       // den1_a2 = 12106.8;
+       //  den1_a0 + den1_a1 * pos + den1_a2 * pow(pos,2);     
+
+ //      den1 = 1.516935688136645e6 + 816817.8832152047 * pos;
+ 
+        
+       
+       return den1;
+    }
+ 
+    
+    //------------------------------------------------------------------------------------------------------------------------------
+    // Definicion de la funcion density3
+    
+    double density3(double pos)
+    {
+        double den3;
+
+    //den3 = pow(pos,4.929545434398888);
+    
+      
+
+        return den3;
+    } */

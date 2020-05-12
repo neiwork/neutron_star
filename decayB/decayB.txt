@@ -1,0 +1,1 @@
+./Debug/read.cpp.o ./Debug/prueba_gauss.cpp.o ./Debug/modelFunctions.cpp.o ./Debug/main.cpp.o ./Debug/matrixComponents.cpp.o ./Debug/initialConditions.cpp.o ./Debug/globalParameters.cpp.o
