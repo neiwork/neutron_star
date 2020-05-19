@@ -30,7 +30,20 @@ interpol(u, Ecreator, Ncreator, Ncreator.size() - 1);
 
 double atomicNumberZ(double density)
 {
-	double res = interpol(density, rho_Z, Z, Z.size() - 1);
+	
+	//vector.front() first value of array
+	//vector.back() last value of array
+	double res ;
+	if(density < rho_Z.front()){
+		res = Z.front();
+		}
+	else if(density > rho_Z.back()){
+		res = Z.back();
+		}
+	else{
+		res = interpol(density, rho_Z, Z, Z.size() - 1);
+		}	
+
 	return res;
 }
 
@@ -38,7 +51,19 @@ double massNumberA(double density)
 {
 	double Z = atomicNumberZ(density);
 	
-	double nucleonNumber = interpol(density, rho_N, N, N.size() - 1);
+	double nucleonNumber;
+ 
+
+	if(density < rho_N.front()){
+		nucleonNumber = N.front();
+		}
+	else if(density > rho_N.back()){
+		nucleonNumber = N.back();
+		}
+	else{
+		nucleonNumber = = interpol(density, rho_N, N, N.size() - 1);
+		}	
+		
 	double A = nucleonNumber-Z;
 	return A;
 }
